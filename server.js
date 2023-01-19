@@ -43,5 +43,5 @@ app.get('/seed', async (req, res) => {
   });
 
 app.listen(PORT, () => {
-    console.log('This message means nothing', PORT)
-  })
+    console.log(`This message means nothing ${PORT}`);
+  });
